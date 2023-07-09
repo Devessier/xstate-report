@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-[12pt]">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description">
@@ -9,7 +9,7 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>XState Report</title>
 	</head>
-	<body>
+	<body class="text-[12pt]">
 		<main>
 			<slot />
 		</main>
@@ -18,13 +18,13 @@
 
 <style is:global>
 	/* See https://stackoverflow.com/a/16650459 */
+    
 	body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
         background-color: #FAFAFA;
-		font-size: 12pt;
     }
     * {
         box-sizing: border-box;
