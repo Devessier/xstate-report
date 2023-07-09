@@ -46,7 +46,7 @@
     /* padding: 1cm; */
     /* border: 5px red solid; */
     height: 257mm;
-    /* outline: 2cm #FFEAEA solid; */
+    /* outline: 2cm rgba(255,234,234, .75) solid; */
   }
 
   @media print {
