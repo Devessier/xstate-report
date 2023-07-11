@@ -65,7 +65,7 @@
       few ways to teach XState.
     </p>
 
-    <h2><a href="#" class="no-underline">Modeling state machines</a></h2>
+    <h2><a href="#modeling-state-machines" class="no-underline">Modeling state machines</a></h2>
 
     <p>
       Modeling is known to be the most complicated part of creating state
