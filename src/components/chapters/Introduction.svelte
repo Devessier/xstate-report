@@ -90,7 +90,9 @@
   </Page>
 
   <Page>
-    <h2><a href="#" class="no-underline">Splitting machines</a></h2>
+    <h2>
+      <a href="#splitting-machines" class="no-underline">Splitting machines</a>
+    </h2>
 
     <p>
       It is not rare for state machines to grow fast in size as adding more and

@@ -5,6 +5,7 @@
   import { setContext } from "svelte";
   import Modeling from "./chapters/Modeling.svelte";
   import Types from "./chapters/Types.svelte";
+  import SplittingMachines from "./chapters/SplittingMachines.svelte";
 
   setContext("page", { current: 1 });
 </script>
@@ -14,3 +15,4 @@
 <Onboarding />
 <Modeling />
 <Types />
+<SplittingMachines />
