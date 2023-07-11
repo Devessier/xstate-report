@@ -65,7 +65,11 @@
       few ways to teach XState.
     </p>
 
-    <h2><a href="#modeling-state-machines" class="no-underline">Modeling state machines</a></h2>
+    <h2>
+      <a href="#modeling-state-machines" class="no-underline"
+        >Modeling state machines</a
+      >
+    </h2>
 
     <p>
       Modeling is known to be the most complicated part of creating state
@@ -74,7 +78,7 @@
       to a simple solution using a more scoped tool instead of a state machine.
     </p>
 
-    <h2><a href="#" class="no-underline">Types</a></h2>
+    <h2><a href="#types" class="no-underline">Types</a></h2>
 
     <p>
       Types are crucial for building scalable software. XState supports typing

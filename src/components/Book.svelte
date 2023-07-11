@@ -4,6 +4,7 @@
   import BlankPage from "../components/BlankPage.svelte";
   import { setContext } from "svelte";
   import Modeling from "./chapters/Modeling.svelte";
+  import Types from "./chapters/Types.svelte";
 
   setContext("page", { current: 1 });
 </script>
@@ -12,3 +13,4 @@
 <BlankPage />
 <Onboarding />
 <Modeling />
+<Types />
