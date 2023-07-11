@@ -5,7 +5,7 @@
 </script>
 
 <Chapter chapter="Onboarding new developers">
-  <Page id="onboarding-new-developers">
+  <Page id="onboarding-new-developers-chapter">
     <PageTitle />
 
     <p>

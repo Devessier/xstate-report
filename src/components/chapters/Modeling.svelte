@@ -10,7 +10,7 @@
 </script>
 
 <Chapter chapter="Modeling state machines">
-  <Page id="modeling-state-machines">
+  <Page id="modeling-state-machines-chapter">
     <PageTitle />
 
     {@html Part0()}

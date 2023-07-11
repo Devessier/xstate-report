@@ -10,7 +10,7 @@
 </script>
 
 <Chapter chapter="Typing machines">
-  <Page id="types">
+  <Page id="types-chapter">
     <PageTitle />
 
     {@html Part0()}

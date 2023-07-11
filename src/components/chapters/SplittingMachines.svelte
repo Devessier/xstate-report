@@ -11,7 +11,7 @@
 </script>
 
 <Chapter chapter="Splitting machines">
-  <Page id="splitting-machines">
+  <Page id="splitting-machines-chapter">
     <PageTitle />
 
     {@html Part0()}
