@@ -10,7 +10,7 @@
   import { compiledContent as Part4 } from "./Testing/4.md";
 </script>
 
-<Chapter chapter="Testing and XState">
+<Chapter chapter="Testing with XState">
   <Page id="testing-chapter">
     <PageTitle />
 
