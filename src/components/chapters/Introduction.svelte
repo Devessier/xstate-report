@@ -46,13 +46,13 @@
   <Page>
     <PageTitle />
 
-    <div class="[&>h2>a]:no-underline">
+    <div class="[&>h2>a]:no-underline prose-h2:font-bold">
       {@html Part1()}
     </div>
   </Page>
 
   <Page>
-    <div class="[&>h2>a]:no-underline">
+    <div class="[&>h2>a]:no-underline prose-h2:font-bold">
       {@html Part2()}
     </div>
   </Page>
