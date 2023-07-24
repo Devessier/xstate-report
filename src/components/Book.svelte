@@ -7,6 +7,7 @@
   import Types from "./chapters/Types.svelte";
   import SplittingMachines from "./chapters/SplittingMachines.svelte";
   import Testing from "./chapters/Testing.svelte";
+  import Conclusion from "./chapters/Conclusion.svelte";
 
   setContext("page", { current: 1 });
 </script>
@@ -18,3 +19,4 @@
 <Types />
 <SplittingMachines />
 <Testing />
+<Conclusion />
