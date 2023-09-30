@@ -15,7 +15,7 @@
 </script>
 
 <section {id} class="page relative">
-  <div class="subpage prose prose-p:font-medium text-justify">
+  <div class="subpage prose font-medium text-justify">
     {#if pageInChapter > 0 && chapter !== undefined}
       <header
         class="border-b border-gray-200 flex justify-between not-prose pb-2 text-sm font-medium text-zinc-600"
