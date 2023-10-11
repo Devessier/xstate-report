@@ -15,6 +15,4 @@ git add .
 git commit -m "chore: generate report"
 git push
 
-pkill node
-
 exit 0
