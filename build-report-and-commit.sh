@@ -15,4 +15,4 @@ git add .
 git commit -m "chore: generate report"
 git push
 
-kill $!
+kill $(pgrep node)
