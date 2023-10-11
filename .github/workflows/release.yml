@@ -38,25 +38,7 @@ jobs:
       - name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1
         with:
-          publish: |
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-
-            npm run preview &
-
-            until $(curl --output /dev/null --silent --head --fail http://localhost:3000); do
-              printf '.'
-              sleep 5
-            done
-
-            echo 'Server is listening'
-
-            node ./build-report.js --production
-
-            git add .
-            git commit -m "chore: generate report"
-            git push
-
+          publish: ./build-report-and-commit.sh
           version: npm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
