@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+npm run build
+
 npm run preview &
 
 until $(curl --output /dev/null --silent --head --fail http://localhost:3000); do
